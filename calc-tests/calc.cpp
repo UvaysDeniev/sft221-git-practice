@@ -1,14 +1,25 @@
 #include "calc.h"
-
-int add(int a, int b){
+bool valid(int a)
+{
+  bool result = false;
+  if (a > 0)
+  {
+    result = true;
+  }
+  return result;
+}
+int add(int a, int b)
+{
   return a + b;
 }
 
-int minus_mine(int a, int b){
+int minus_mine(int a, int b)
+{
   return a - b;
 }
 
-int sum(int arr[], int len){
+int sum(int arr[], int len)
+{
   int ret = 0;
   for (int i = 0; i < len; ++i)
     ret += arr[i];
