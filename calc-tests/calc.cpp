@@ -14,3 +14,7 @@ int sum(int arr[], int len){
     ret += arr[i];
   return ret;
 }
+
+int shopping(int money, int price){
+  return money - price;
+}
