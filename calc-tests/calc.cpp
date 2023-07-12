@@ -2,7 +2,12 @@
 
 // Develpoer A
 
+
 // Develpoer C
+int multiply(int a, int b) 
+{
+return a*b; 
+}
 
 // Develpoer K
 
