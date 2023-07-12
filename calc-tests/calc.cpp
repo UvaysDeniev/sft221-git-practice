@@ -1,4 +1,13 @@
 #include "calc.h"
+
+// Develpoer A
+
+// Develpoer C
+
+// Develpoer K
+
+// Develpoer J
+
 bool valid(int a)
 {
   bool result = false;
