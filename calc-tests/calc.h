@@ -11,3 +11,5 @@ int shopping(int money, int price);
 // Develpoer K
 
 // Develpoer J
+
+bool listVal(int arr[], int len);

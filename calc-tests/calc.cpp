@@ -14,6 +14,16 @@ return a*b;
 
 // Develpoer J
 
+bool listVal(int arr[], int len) {
+    bool flag = false;
+
+    if (arr[0] != '\0' && sizeof(arr) >= len) {
+        flag = true;
+    }
+
+    return flag;
+}
+
 bool valid(int a)
 {
   bool result = false;
