@@ -16,13 +16,13 @@ return a*b;
 
 bool listVal(int arr[], int len) {
     
-    bool flag = false;
+    bool flag = true;
 
     if (arr[0] != '\0' && sizeof(arr) >= len) {
-        flag = true;
+        flag = false;
     }
 
-    return flag;
+    return !flag;
 }
 
 bool valid(int a)
