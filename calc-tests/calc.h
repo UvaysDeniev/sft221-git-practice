@@ -5,7 +5,7 @@ int sum(int arr[], int len);
 int shopping(int money, int price);
 
 // Develpoer A
-
+bool check(char b);
 // Develpoer C
 
 // Develpoer K

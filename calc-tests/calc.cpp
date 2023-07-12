@@ -1,12 +1,15 @@
 #include "calc.h"
 
 // Develpoer A
-
+bool check(char b)
+{
+  b == 'b' ? true : false;
+}
 
 // Develpoer C
-int multiply(int a, int b) 
+int multiply(int a, int b)
 {
-return a*b; 
+  return a * b;
 }
 
 // Develpoer K
@@ -34,11 +37,13 @@ bool valid(int a)
   return result;
 }
 
-int multiply(int a, int b){
+int multiply(int a, int b)
+{
   return a * b;
 }
 
-int add(int a, int b){
+int add(int a, int b)
+{
   return a + b;
 }
 
@@ -55,10 +60,10 @@ int sum(int arr[], int len)
   return ret;
 }
 
-int shopping(int money, int price){
+int shopping(int money, int price)
+{
   return money - price;
 }
 
 // Dev B
 // git is very fun? Right?
-
