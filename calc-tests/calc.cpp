@@ -10,6 +10,7 @@ return a*b;
 }
 
 // Develpoer K
+// Hey!! This is Kanisha
 
 // Develpoer J
 
@@ -47,3 +48,7 @@ int sum(int arr[], int len)
 int shopping(int money, int price){
   return money - price;
 }
+
+// Dev B
+// git is very fun? Right?
+
