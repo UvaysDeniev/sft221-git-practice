@@ -42,3 +42,60 @@
         4. `git stash pop stash@{0}`回復(自動刪除stash@{0})
         5. (非必要)`git stash apply stash@{0}`回復(保留stash@{0})
         6. (非必要)`git stash drop stash@{0}`手動刪除
+
+## 以下未經驗證僅供參考
+
+### If you have conflict
+- `git status`
+- `git diff`
+- `git add --all`
+- `git rebase --continue`
+- `git push origin SFT-xxxx`
+
+### After PR
+- `git checkout main`
+- `git pull upstream main`
+- `git branch -d SFT-xxxxx`
+- `git push origin --delete SFT-xxxxx`
+
+### If you want to delete your branch
+- `git branch -d SFT-xxxxx`
+- `git push origin --delete SFT-xxxxx`
+
+### If you want to delete your branch in upstream
+- `git push upstream --delete SFT-xxxxx`
+
+### If you want to delete your branch in personal github
+- `git push origin --delete SFT-xxxxx`
+
+### If you want to delete your branch in local
+- `git branch -d SFT-xxxxx`
+
+### If you want to delete your branch in local and upstream
+- `git branch -d SFT-xxxxx`
+- `git push upstream --delete SFT-xxxxx`
+
+### If you want to delete your branch in local and personal github
+- `git branch -d SFT-xxxxx`
+- `git push origin --delete SFT-xxxxx`
+
+### If you want to delete your branch in local and upstream and personal github
+- `git branch -d SFT-xxxxx`
+- `git push upstream --delete SFT-xxxxx`
+- `git push origin --delete SFT-xxxxx`
+
+### If you want to delete your branch in upstream and personal github
+
+- `git push upstream --delete SFT-xxxxx`
+- `git push origin --delete SFT-xxxxx`
+
+### If you want to delete your branch in upstream and personal github and local
+
+- `git branch -d SFT-xxxxx`
+- `git push upstream --delete SFT-xxxxx`
+- `git push origin --delete SFT-xxxxx`
+
+### If you want to delete your branch in upstream and local
+
+- `git branch -d SFT-xxxxx`
+- `git push upstream --delete SFT-xxxxx`
